@@ -1,5 +1,10 @@
 # rokke/contracts
 
+[![CI](https://github.com/rokke-php/contracts/actions/workflows/ci.yml/badge.svg)](https://github.com/rokke-php/contracts/actions/workflows/ci.yml)
+[![Latest Version](https://img.shields.io/packagist/v/rokke/contracts.svg)](https://packagist.org/packages/rokke/contracts)
+[![PHP Version](https://img.shields.io/packagist/php-v/rokke/contracts.svg)](https://packagist.org/packages/rokke/contracts)
+[![License](https://img.shields.io/github/license/rokke-php/contracts.svg)](LICENSE)
+
 Public platform contracts for the [Rokke Framework](https://rokke.dev) — the interfaces and shared vocabulary that define how the platform and its modules communicate.
 
 ## What this is
