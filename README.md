@@ -147,13 +147,11 @@ A contract lives here if and only if **multiple legitimate implementations can e
 - `ModuleInterface` → any module author implements it → **here**
 - `WorkerManagerInterface` → only the runtime implements it → **rokke/runtime**
 
-See [ADR-001](../docs/adr/ADR-001-rokke-contracts.md) for the full rationale.
-
 ## Stability
 
 This package is intentionally the most stable in the Rokke ecosystem. Breaking changes require architectural justification. Treat every interface here as a signed API contract.
 
-New interfaces start as internal contracts inside their first module and are promoted here only after two or more independent modules prove the abstraction. See [ADR-003](../docs/adr/ADR-003-contract-promotion-policy.md).
+New interfaces start as internal contracts inside their first module and are promoted here only after two or more independent modules prove the abstraction.
 
 ## License
 
