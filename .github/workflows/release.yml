@@ -46,6 +46,7 @@ jobs:
     name: Notify Packagist
     runs-on: ubuntu-latest
     needs: validate
+    environment: Production
 
     steps:
       - name: Trigger package update
