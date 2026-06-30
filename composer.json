@@ -1,0 +1,61 @@
+{
+	"name": "rokke/contracts",
+	"description": "Rokke Contracts – Public platform interfaces and shared vocabulary for the Rokke ecosystem.",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Fernando Duarte",
+			"email": "fduarte@rokke.dev"
+		}
+	],
+	"keywords": [
+		"contracts",
+		"interfaces",
+		"platform",
+		"php"
+	],
+	"homepage": "https://rokke.dev",
+	"support": {
+		"issues": "https://github.com/rokke-php/contracts/issues",
+		"source": "https://github.com/rokke-php/contracts"
+	},
+	"require": {
+		"php": ">=8.4",
+		"psr/container": "^2.0"
+	},
+	"require-dev": {
+		"friendsofphp/php-cs-fixer": "^3.64",
+		"phpstan/phpstan": "^1.12",
+		"phpunit/phpunit": "^13.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Rokke\\Contracts\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Rokke\\Contracts\\Tests\\": "tests/"
+		}
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"sort-packages": true,
+		"preferred-install": "dist",
+		"allow-plugins": {}
+	},
+	"scripts": {
+		"test": "phpunit",
+		"lint": "php-cs-fixer fix --dry-run --diff --verbose",
+		"lint:fix": "php-cs-fixer fix",
+		"analyse": "phpstan analyse --memory-limit=2G",
+		"check": [
+			"@lint",
+			"@analyse",
+			"@test"
+		]
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true
+}
