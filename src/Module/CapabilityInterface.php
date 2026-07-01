@@ -10,4 +10,3 @@ namespace Rokke\Contracts\Module;
  * them into DefinitionInterface instances stored in the ApplicationModel.
  */
 interface CapabilityInterface {}
-

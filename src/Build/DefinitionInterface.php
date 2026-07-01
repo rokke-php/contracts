@@ -10,4 +10,3 @@ namespace Rokke\Contracts\Build;
  * consumed by the RuntimeBuilder to assemble the CompiledRuntime.
  */
 interface DefinitionInterface {}
-
