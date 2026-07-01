@@ -9,6 +9,5 @@ namespace Rokke\Contracts\Module;
  * Modules declare capabilities during the Build phase; ModelBuilderPasses translate
  * them into DefinitionInterface instances stored in the ApplicationModel.
  */
-interface CapabilityInterface
-{
-}
+interface CapabilityInterface {}
+

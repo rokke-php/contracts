@@ -9,6 +9,5 @@ namespace Rokke\Contracts\Build;
  * Produced by ModelBuilderPasses from module Capabilities;
  * consumed by the RuntimeBuilder to assemble the CompiledRuntime.
  */
-interface DefinitionInterface
-{
-}
+interface DefinitionInterface {}
+
